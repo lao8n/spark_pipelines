@@ -1,0 +1,6 @@
+Idea is pass around a struct of dimension values that are updated by functions.
+Each function can take a struct and based upon which dimension the arrays are on it performs the appropriate
+dimension change.
+
+MVP = Take a df of one column with dimensions row_wise = x, col_wise = 1, and apply groupby_agg(df, x) to get
+row_wise = x_unique, col_wise = 1
